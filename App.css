@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+}
+
+.App {
+background-size: cover;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+
+
+
+.my-favarites-book {
+  background: lightslategray;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.no-books {
+display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: powderblue;
+}
+
+.book {
+justify-content: space-between;
+}
+
+.book-title {
+  margin: 25px;
+}
+
+/* .button-container {
+  margin: 25px;
+} */
+
+.book-details {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background: powderblue;
+}
+
+.book-poster {
+  margin: 0 10px;
+}
+
+.favorites {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  text-align: center;
+  background: powderblue;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  transition: all 0,3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.book{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+
+/* For Mobail Screen Size */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .navebar-card{
+    font-size: 20px;
+  }
+  .my-favarites-book {
+    font-size: 12px;
+    background: lightslategray;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 6px;
+  }
+  .book-list {
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.favorites {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.book-list-img {
+  width: 75px;
+  height: 100px;
+}
+.name-container {
+  width: 100px;
+  height: 15px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.name-card {
+  width: 100px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.button-container {
+  width: 100px;
+  height: 15px;
+  text-align: center !important;
+  justify-content: center !important;
+}
+.button-card {
+  width: 100px;
+  height: 15px;
+  font-size: 10px;
+}
+.footer {
+  font-size: 10px;
+}
+}
+
+/* For iPads, Tablets Screen size*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+.navebar-card{
+  font-size: 30px;
+}
+.my-favarites-book {
+  font-size: 12px;
+  background: lightslategray;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.book-list {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.favorites {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.book-list-img {
+  width: 100px;
+  height: 150px;
+}
+.name-container {
+  width: 100px;
+  height: 15px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.name-card {
+  width: 100px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.button-container {
+  width: 100px;
+  height: 15px;
+  text-align: center !important;
+  justify-content: center !important;
+}
+.button-card {
+  width: 100px;
+  height: 15px;
+  font-size: 10px;
+}
+.footer {
+  font-size: small;
+}
+}
+
+/* For Small screens, laptops Screen size*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navebar-card{
+    font-size: 20px;
+  }
+  .my-favarites-book {
+    font-size: 12px;
+    background: lightslategray;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 6px;
+  }
+  .book-list {
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .favorites {
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .book-list-img {
+    width: 125px;
+    height: 175px;
+  }
+  .name-container {
+    width: 125px;
+    height: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .name-card {
+    width: 125px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .button-container {
+    width: 125px;
+    height: 15px;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .button-card {
+    width: 125px;
+    height: 15px;
+    font-size: 10px;
+  }
+  .footer {
+    font-size: small;
+  }
+  }
+
+  /* For  1025px — 1200px: Desktops, large screens size*/
+@media only screen and (min-width: 1024px) {
+  .navebar-card{
+    font-size: 30px;
+  }
+  .my-favarites-book {
+    font-size: 12px;
+    background: lightslategray;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 6px;
+  }
+  .book-list {
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .favorites {
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .book-list-img {
+    width: 175px;
+    height: 250px;
+  }
+  .name-container {
+    width: 175px;
+    height: 25px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .name-card {
+    width: 175px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .button-container {
+    width: 175px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  .button-card {
+    width: 175px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .all-button {
+    width: 175px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer {
+    font-size: small;
+  }
+  }
+
+
+
