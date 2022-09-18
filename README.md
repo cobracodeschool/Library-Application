@@ -11,11 +11,14 @@ Why a web application is suitable for a library management system?
     
     
 Home page:
-<img>(https://user-images.githubusercontent.com/110757279/190892262-92b3a320-84f1-4c11-9f98-9101d03ba298.png)</img>
+![home-large](https://user-images.githubusercontent.com/110757279/190892262-92b3a320-84f1-4c11-9f98-9101d03ba298.png)
 
 Favorites Page:
 ![Favorite page](https://user-images.githubusercontent.com/110757279/190892330-68903a9a-a8d1-492a-9fa0-af3e5aaaacbf.png)
 
+Mobile view:
+![Home Mobile view](https://user-images.githubusercontent.com/110757279/190892417-ece3d350-8536-416c-b43e-f070be23f6df.png)
+
 An overview of my project is given below: 
- https://www.loom.com/share/0b095bf19685458fbd1c41cea87c0c0b
-![home-large](https://user-images.githubusercontent.com/110757279/190892262-92b3a320-84f1-4c11-9f98-9101d03ba298.png)
+![loom-Video](https://www.loom.com/share/0b095bf19685458fbd1c41cea87c0c0b)
+
