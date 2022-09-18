@@ -20,5 +20,5 @@ Mobile view:
 ![Home Mobile view](https://user-images.githubusercontent.com/110757279/190892417-ece3d350-8536-416c-b43e-f070be23f6df.png)
 
 An overview of my project is given below: 
-![[](https://www.loom.com/share/0b095bf19685458fbd1c41cea87c0c0b)]
+![loom-video](https://www.loom.com/share/0b095bf19685458fbd1c41cea87c0c0b)
 
