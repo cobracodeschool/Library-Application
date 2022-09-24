@@ -12,6 +12,7 @@ Why a web application is suitable for a library management system?
 
 Flow Chart:
 ![Library-Application-Flow_chart](https://user-images.githubusercontent.com/110757279/192080994-c1ded2f0-7749-47ed-b697-4d2e2747231d.jpg)
+
 Home page:
 ![home-large](https://user-images.githubusercontent.com/110757279/190892262-92b3a320-84f1-4c11-9f98-9101d03ba298.png)
 
