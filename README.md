@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+I utilized HTML, CSS, JavaScript, and React JS to construct a library application with information on 240 volumes. I then utilized API to acquire book data. We can add the books to your list of favorite books, and it's entirely front end. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Beginning with "what" and "why," 
 
-## Available Scripts
+What is web-based library system?
+    A Web-based Library Management Software on Cloud controls all the library operations in a systematic way from a single point of access. It helps in keeping records of all the library resources like books, catalogs, journals, e-books, CDs, newspapers, etc.
 
-In the project directory, you can run:
+Why a web application is suitable for a library management system?
+    Why choose a web-based library system? A web-based system is more convenient than traditional desktop applications. Users can easily access the cloud or web-based application from anywhere at any time. It is also cost-effective solutions to manage burdensome library operations.
+    
+    
+Home page:
+![home-large](https://user-images.githubusercontent.com/110757279/190892262-92b3a320-84f1-4c11-9f98-9101d03ba298.png)
 
-### `npm start`
+Favorites Page:
+![Favorite page](https://user-images.githubusercontent.com/110757279/190892330-68903a9a-a8d1-492a-9fa0-af3e5aaaacbf.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mobile view:
+![Home Mobile view](https://user-images.githubusercontent.com/110757279/190892417-ece3d350-8536-416c-b43e-f070be23f6df.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+An overview of my project is given below: 
+![loom-video](https://www.loom.com/share/0b095bf19685458fbd1c41cea87c0c0b)
